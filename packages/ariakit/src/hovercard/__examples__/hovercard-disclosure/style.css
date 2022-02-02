@@ -1,0 +1,37 @@
+@import url("../hovercard/style.css");
+
+.wrapper {
+  @apply flex items-center;
+}
+
+.hovercard {
+  @apply gap-4;
+}
+
+.anchor {
+  @apply text-lg;
+}
+
+.username {
+  @apply mt-[-10px];
+}
+
+.handle {
+  @apply mt-[-20px] text-black-fade;
+}
+
+a {
+  @apply text-primary-1 hover:underline dark:text-primary-1-dark;
+}
+
+.stats {
+  @apply flex gap-4 text-black-fade;
+}
+
+.number {
+  @apply text-black dark:text-white font-semibold;
+}
+
+.disclosure {
+  @apply p-2;
+}
