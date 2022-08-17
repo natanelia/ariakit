@@ -1,5 +1,11 @@
 # ariakit
 
+## 2.0.0-next.40
+
+### Patch Changes
+
+- Fixed nested `Menu` prematurely hiding when moving the mouse to it on Safari. ([#1764](https://github.com/ariakit/ariakit/pull/1764))
+
 ## 2.0.0-next.39
 
 ### Minor Changes
